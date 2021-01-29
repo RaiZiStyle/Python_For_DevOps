@@ -6,7 +6,6 @@ Description:
 
 Usage : 
     $ ./argparse_example.py --help
-
 """
 
 import argparse

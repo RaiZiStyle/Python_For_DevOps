@@ -1,13 +1,12 @@
 #!/usr/bin/python3
+
 """
 Description:
     - Command-line tool using click
 
 Usage : 
     $ ./click_example.py ships --help 
-
 """
-
 
 import click
 

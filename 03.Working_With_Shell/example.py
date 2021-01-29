@@ -6,7 +6,6 @@ Description:
 
 Usage : 
     $ ./example.py 
-
 """
 
 import sys

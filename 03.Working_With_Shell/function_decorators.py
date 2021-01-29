@@ -6,7 +6,6 @@ Description:
 
 Usage : 
     $ ./function_decorators.py
-
 """
 
 def some_decorator(wrapped_function):

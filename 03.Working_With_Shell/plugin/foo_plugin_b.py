@@ -1,2 +1,2 @@
 def run():
-    print("Running plugin A")
+    print("Running plugin B")
