@@ -4,6 +4,15 @@ import sys
 import os
 import subprocess
 
+
+class MyOtherClass():
+    def __init__(self, name):
+        self.name = name
+
+
+
+
+
 def say_it():
     greeting = 'Hello'
     target = 'Joe'
@@ -13,7 +22,10 @@ def say_it():
 
 
 if __name__ == '__main__':
-    print("In this {0}, we are in {1}, with a python version {2}.{3}".format(sys.platform,sys.byteorder,sys.version_info.major, sys.version_info.minor))
+    print("In this {0}, we are in {1}, with a python version {2}.{3}".format(sys.platform, sys.byteorder, sys.version_info.major, sys.version_info.minor))
+    myOtherObject = MyOtherClass('Sammy')
+    print("Example of class : {}".format(myOtherObject.name))
+
 
     # Checking Version of Python
     if sys.version_info.major < 3:
