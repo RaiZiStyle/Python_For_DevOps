@@ -2,7 +2,7 @@
 import argparse
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Example of ussing argparse module")
     subparsers = parser.add_subparsers()
     subparsers.required = True
     subparsers.dest = 'command'
