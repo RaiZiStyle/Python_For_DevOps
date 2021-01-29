@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 
+"""
+Description:
+    - Example of class and SubProcess
+
+Usage : 
+    $ ./example.py 
+
+"""
+
 import sys
 import os
 import subprocess
@@ -8,8 +17,6 @@ import subprocess
 class MyOtherClass():
     def __init__(self, name):
         self.name = name
-
-
 
 
 

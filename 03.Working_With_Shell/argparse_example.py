@@ -1,8 +1,18 @@
 #!/usr/bin/python3
+
+"""
+Description:
+    - Example of using argparse module
+
+Usage : 
+    $ ./argparse_example.py --help
+
+"""
+
 import argparse
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Example of ussing argparse module")
+    parser = argparse.ArgumentParser(description="Example of using argparse module")
     subparsers = parser.add_subparsers()
     subparsers.required = True
     subparsers.dest = 'command'
