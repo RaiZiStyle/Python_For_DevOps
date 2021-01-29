@@ -34,4 +34,5 @@ class Cli():
         self.ships = Ships()
 
 if __name__ == '__main__':
-    fire.Fire(Cli) 
+    fire.Fire(Cli)
+    sailors('hello', 'fred')
