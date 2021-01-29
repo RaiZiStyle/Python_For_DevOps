@@ -10,7 +10,6 @@ Usage :
     $ ./fire_example.py ships sail
     $ ./fire_example.py sailors Hiya Karl -- --interactive
 
-
 """
 import fire
 
