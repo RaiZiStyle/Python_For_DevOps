@@ -42,9 +42,7 @@ if __name__ == '__main__':
         print("You'r good to go")
 
     # Simple subProcess
-    cp = subprocess.run(['ls', '-l'],
-                        capture_output=True,
-                        universal_newlines=True)
+    cp = subprocess.run(['ls', '-l'],capture_output=True, universal_newlines=True)
     print(cp.stdout)
 
     # Handle error in subProcess
