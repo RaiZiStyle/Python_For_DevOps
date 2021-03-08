@@ -6,7 +6,8 @@ Description:
 
 Usage : 
     $ FLASK_APP=small.py flask run
-    $ molotov load_test.py
+    $ molotov -v -r 100 load_test.py # Scenario 1
+    $ molotov -v -r 1 --process 1 load_test.py
 """
 
 
